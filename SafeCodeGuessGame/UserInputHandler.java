@@ -18,7 +18,7 @@ public class UserInputHandler {
 			System.out.println("Select deque: ");
 			userInput = scanner.nextLine();
 			correctUserInput = true;
-			if (!userInput.matches("^[1-4]*$")) {
+			if (!userInput.matches("^[1-4]{1}")) {
 				System.out.println("Invalid input!");
 				correctUserInput = false;
 			}
@@ -37,7 +37,7 @@ public class UserInputHandler {
 			System.out.println("With how many indexes want to rotate: ");
 			userInput = scanner.nextLine();
 			correctUserInput = true;
-			if (!userInput.matches("^[0-9]*$")) {
+			if (!userInput.matches("^[0-9]{1}")) {
 				System.out.println("Invalid input!");
 				correctUserInput = false;
 			}
