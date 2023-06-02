@@ -44,8 +44,7 @@ public class UserInputHandler {
 		} while (!correctUserInput);
 		
 		int userNumber = Integer.parseInt(userInput);
-		return userNumber;
-		
+		return userNumber;		
 	}
 	
 	// Select the rotate way. To left or right
